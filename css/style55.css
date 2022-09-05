@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 2000px;
+}
+.div1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    background-color: gray;
+    border-radius: 100px 10px;
+    text-align: center;
+    box-shadow: 15px 15px  10px 1px rgb(158, 152, 152);
+    animation-name: sheck;
+    animation-duration: 3s;
+    animation-timing-function: case;
+    
+   
+}
+@keyframes sheck {
+    0% {background-color: gray; }
+    100% {background-color: black; margin-left: 1100px;}
+    
+
+}
+.tit1 ,.tit2 ,.tit3 ,.tit4 {
+    color: white;
+    padding-left: 30px;
+    padding-top: 40px;
+    text-shadow: 2px 2px 4px wheat;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    background-color: black;
+    border-radius: 10px 100px;
+    margin-top: 10px;
+    margin-left: 1100px;
+    box-shadow: 15px 15px  10px 1px rgb(109, 98, 98);
+    animation-name: dd;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+}
+@keyframes dd {
+    0% {background-color: black; }
+    100% {background-color: red; margin-left: 10px;}
+}
+.tit2 {
+    padding-left: 50px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    background-color: red;
+    border-radius: 100px 150px ;
+    margin-top: 10px;
+    box-shadow: 7px 7px  10px 1px rgb(67, 255, 123) ;
+    animation-name: ss;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    
+}
+@keyframes ss {
+    0% {background-color: yellow; }
+    100% {background-color: blue; margin-left: 1100px;}
+}
+.tit3 {
+    padding-left: 50px;
+    padding-top: 55px;
+    text-shadow: 3px 3px 5px rgb(67, 255, 123);
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 1100px;
+    background-color: blue;
+    border-radius: 150px 100px ;
+    box-shadow: 15px 15px  10px 1px rgb(158, 152, 152);
+    animation-name: nn;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    margin-top: 10px;
+    
+}
+@keyframes nn {
+    0% {background-color:blue; }
+    100% {background-color: yellow; margin-left: 10px;}
+}
+.tit4 {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div5 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/planet.webp);
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:10px;
+    border-radius: 100px 5px;
+    text-align: center;
+    animation-name: uu;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    
+}
+@keyframes uu {
+    0% {background-image: url(../images/planet.webp); }
+    100% {background-image: url(../images/karma.jfif); margin-left: 1100px;}
+}
+.tit5 {
+    color: white;
+    padding-top: 90px;
+    text-shadow: 3px 3px 5px whitesmoke);
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div6 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/koko.jfif);
+    background-size: cover;
+    margin-left: 1080px;
+    margin-top:10px;
+    border-radius: 5px 100px;
+    text-align: center;
+    animation-name: bb;
+    animation-duration: 3s;
+    animation-delay: 15s;
+
+}
+@keyframes bb {
+    0% {background-image: url(../images/koko.jfif);}
+    100% {background-image: url(../images/lion33.jpg); margin-left: 10px;}
+
+}
+.tit6 {
+    color: rgb(46, 43, 43);
+    padding-top: 90px;
+    font-size: 35px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div7 {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top:40px;
+    background-image: url(../images/www.jfif);
+    text-align: center;
+    transform: rotate(140deg);
+    border-radius: 50px;
+    animation-name: kk;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    
+
+}
+@keyframes kk {
+    0% {background-image: url(../images/www.jfif);}
+    100% {background-image: url(../images/7644.jpg); margin-left: 1000px;}
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.div8 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 1080px;
+    background: -webkit-linear-gradient(top , red , grey ,black);
+    text-align: center;
+    animation-name: qq;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    
+
+}
+@keyframes qq {
+    0% { background: -webkit-linear-gradient(top , red , grey ,black);}
+    100% {background-image: url(../images/images.jfif); margin-left: 10px;}
+}
+.tit8 {
+    padding-top: 90px;
+    color: coral;
+    font-size: 35px;
+}
